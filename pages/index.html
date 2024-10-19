@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legainc Project</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+</head>
+
+<body>
+
+
+  <!-- header -->
+  <header class="">
+    <!-- one header -->
+    <div id="#arrow" class="d-none d-lg-block d-md-none my-3 ">
+      <div class="d-flex justify-content-between container mb-2">
+        <div class="">
+          <a href="" class="text-black text-decoration-none me-lg-4 mx-md-4 mx-3 fw-semibold"><iconify-icon
+              class="me-2 btn-group-vertical" icon="mdi:phone"></iconify-icon>+1(812)0703692</a>
+          <a href="" class="text-black text-decoration-none fw-semibold"><iconify-icon class="me-2 btn-group-vertical"
+              icon="fa:envelope"></iconify-icon>info@your-site.com</a>
+        </div>
+
+        <div class="d-flex align-items-center ">
+          <h6><iconify-icon class="btn-group-vertical me-1" icon="fa:sign-in"></iconify-icon>Login or Register</h6>
+          <div class="ms-5">
+            <iconify-icon icon="ri:facebook-fill"></iconify-icon>
+            <iconify-icon class="mx-3" icon="mdi:twitter"></iconify-icon>
+            <iconify-icon icon="entypo-social:google"></iconify-icon>
+            <iconify-icon class="mx-3" icon="fa:linkedin"></iconify-icon>
+            <iconify-icon icon="fa:skype"></iconify-icon>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <!-- SB-HD -->
+
+  </header>
+  <div class="sticky-top bg-white ">
+    <nav class="navbar navbar-expand-lg container mb-5  ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../images/logo-b (1).svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fw-medium" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-medium" href="#">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-dark fw-medium" href="#">
+                Gallery
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-medium" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-medium" href="#">Our Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-medium" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark fw-semibold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false ">
+                Account
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="../pages/login.html">Login</a></li>
+                <li><a class="dropdown-item" href="../pages/register.html">Register</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <iconify-icon class="fs-6" icon="fa:search"></iconify-icon>
+            <!-- Updated icon to trigger offcanvas -->
+            <span><iconify-icon class="mx-4 fs-5 fw-bold" icon="solar:cart-large-2-linear" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"></iconify-icon></span>
+            <iconify-icon class="fs-5 fw-bold" icon="mynaui:menu-solid"></iconify-icon>
+          </div>
+        </div>
+      </div>
+    </nav>
+   </div>
+  <!-- Hero-Section -->
+  <div id="carouselExampleIndicators" class="carousel slide ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner position-relative">
+      <div class="carousel-item active">
+        <div class="hero-section position-absolute top-50 start-50 translate-middle text-center">
+          <h5 class="fw-normal leganic">Most Trusted Organic Food</h5>
+          <h1 class="fw-bold display-5">Fresh Organic Items For <br> Your Healthy Life</h1>
+          <div class="pt-2">
+            <button type="button" class="btn btn-success btn-outline-warning text-white border-0 py-2 px-3 my-2">LEARN
+              MORE</button>
+            <button type="button" class="btn btn-warning text-white btn-outline-success border-0 py-2 px-3">START
+              TODAY</button>
+          </div>
+        </div>
+        <img class="img-fluid " src="../images/image-6-1.jpg" alt="hero-img-1">
+      </div>
+      <div class="carousel-item">
+        <div class="hero-section position-absolute top-50 start-50 translate-middle text-center">
+          <h5 class="fw-normal leganic">Most Trusted Organic Food</h5>
+          <h1 class="fw-bold display-5">Organic Fruits, <br> Vegetables & Meat</h1>
+          <div class="pt-2">
+            <button type="button" class="btn btn-success btn-outline-warning text-white border-0 py-2 px-3 my-2">LEARN
+              MORE</button>
+            <button type="button" class="btn btn-warning text-white btn-outline-success border-0 py-2 px-3">START
+              TODAY</button>
+          </div>
+        </div>
+        <img class="img-fluid w-100" src="../images/image-7-1 (1).jpg" alt="hero-img-2">
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- about-section -->
+  <div class="container p-5">
+    <img class="img-fluid mb-3 ms-5" src="../images/icon-1.png" alt="leaf-icon">
+    <div class="row">
+      <div class="col-lg-5 col-md-5 col-sm-12">
+        <h2 class="fw-bold">Producing The Finest and Good Taste Organic Foods With Affordable Price</h2>
+        <p class="text-success fs-5 fw-normal mt-3">From the hearts of California to the landing farms of the world
+          since 1920!
+        </p>
+      </div>
+      <div class="col-lg-7 col-md-7 col-sm-12">
+        <div>
+          <p>Lorem veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptate
+            tem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur mag dolores eosuia ely
+            ratione voluptatem sequib nesciunt.</p>
+          <p>Lorem veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptate
+            tem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur mag dolores eosuia ely
+            ratione voluptatem sequib nesciunt.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+            <div class="bg-white Larger shadow text-center py-4">
+              <img src="../images/icon-15.png">
+              <h5 class="mt-2">ORGANIC FARMS</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+            <div class="bg-white Larger shadow text-center py-4">
+              <img src="../images/icon-16.png">
+              <h5 class="mt-2">CHEMICALLY SAFE</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
+            <div class="bg-white Larger shadow text-center py-4">
+              <img src="../images/icon-17.png">
+              <h5 class="mt-2">CHEMICALLY SAFE</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- produce-products -->
+  <div style="background-image: url(../images/produce.jpg); background-repeat: no-repeat; background-size: cover; "
+    class="py-5 my-5 align-items-center">
+    <div class="container">
+      <div class="row justify-content-evenly align-items-center px-5 flex-wrap align-items-center mt-lg-5">
+        <div class="col-lg-2 col-md-3 col-sm-6 col-6 text-center">
+          <img src="../images/apple.png" alt="apple-img">
+          <h5 class="mt-2">Apples</h5>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-6 text-center">
+          <img src="../images/bananas.png" alt="banana-img">
+          <h5 class="mt-2">Banana</h5>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-6 text-center">
+          <img src="../images/grapes.png" alt="grapes-img">
+          <h5 class="mt-2">Grapes</h5>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-6  text-center">
+          <img src="../images/strawberry.png" alt="straberry-img">
+          <h5 class="mt-2">Straberry</h5>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-6  text-center">
+          <img src="../images/carrots.png" alt="carrots-img">
+          <h5 class="mt-2">Carrots</h5>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-6  text-center">
+          <img src="../images/watermelon.png" alt="lemon-img">
+          <h5 class="mt-2">Watermelon</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- feature-banner-section -->
+  <div class="container my-5  p-2">
+    <div class="row g-3">
+      <div class="col-lg-6 col-md-6 col-sm-12 ">
+        <div class="card  position-relative border-0"
+          style="background-image: url(../images/feature-banner-section-1.jpg); background-repeat: no-repeat; background-size: cover; height: 350px; ">
+          <div class="position-absolute top-50 end-0 translate-middle-y p-5">
+            <div>
+              <h1 class="text-white fw-bold me-5 display-5"> Make <br> Finest <br>Recipes</h1>
+            </div>
+            <button class="btn btn-warning btn-outline-secondary text-white mt-3 px-5 py-3">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 ">
+        <div class="card position-relative border-0"
+          style="background-image: url(../images/feature-banner-section-2.jpg); background-repeat: no-repeat; background-size: cover; height: 350px;">
+          <div class="position-absolute top-50 start-50 translate-middle w-100 text-center">
+            <h4 class="text-danger">Most Trusted Organic Food</h4>
+            <h1 class="text-black fw-bold">Bring Fresh Items</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- featured-products -->
+  <div class="container my-5">
+    <div class="text-center mb-5">
+      <img src="../images/icon-1.png" alt="">
+      <h1 class="fw-bold py-3">Our Featured Products</h1>
+      <p>Esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non <br>
+        proident sunt in culpa qui sed ipsum officia deserunt.</p>
+    </div>
+    <div class="my-5">
+      <ul class="d-flex justify-content-center list-unstyled gap-5 flex-wrap">
+        <li class="text-muted text-uppercase">All</li>
+        <li class="text-muted text-uppercase">vegetable</li>
+        <li class="text-muted text-uppercase">other</li>
+        <li class="text-muted text-uppercase">juice</li>
+        <li class="text-muted text-uppercase">fruits</li>
+        <li class="text-muted text-uppercase">bread</li>
+      </ul>
+    </div>
+    <div class="row g-3 justify-content-center flex-wrap">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card text-center Larger shadow border-0">
+          <img src="../images/kiwi.jpg" class="card-img-top mx-auto mt-3 w-50 h-50 img-fluid" alt="">
+          <div class="card-body">
+            <div class="mb-2">
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+            </div>
+            <h5 class="card-title fw-bold">Kiwi Juice</h5>
+            <p class="card-text text-muted">$3.50</p>
+            <button class="btn btn-success text-white fw-bold px-4 add-to-cart-btn" data-name="Kiwi Juice"
+              data-price="3.50" data-img="../images/kiwi.jpg">
+              <iconify-icon icon="solar:cart-check-bold"></iconify-icon>
+              <span class="fw-semibold">Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card text-center Larger shadow border-0">
+          <img src="../images/pomegranate.jpg" class="card-img-top mx-auto mt-3 w-50 h-50 img-fluid" alt="">
+          <div class="card-body">
+            <div class="mb-2">
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+            </div>
+            <h5 class="card-title fw-bold">Pomegranate</h5>
+            <p class="card-text text-muted">$10.00</p>
+            <button class="btn btn-success text-white fw-bold px-4 add-to-cart-btn" data-name="Pomegranate"
+              data-price="10.00" data-img="../images/pomegranate.jpg">
+              <iconify-icon icon="solar:cart-check-bold"></iconify-icon>
+              <span class="fw-semibold">Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card text-center Larger shadow border-0">
+          <img src="../images/mixed-dry-fruits.jpg" class="card-img-top mx-auto mt-3 w-50 h-50 img-fluid" alt="">
+          <div class="card-body">
+            <div class="mb-2">
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+            </div>
+            <h5 class="card-title fw-bold">Mixed Dry Fruits</h5>
+            <p class="card-text text-muted">$5.00 <s>$10.00</s> </p>
+            <button class="btn btn-success text-white fw-bold px-4 add-to-cart-btn" data-name="Mixed Dry Fruits"
+              data-price="5.00 $10.00" data-img="../images/mixed-dry-fruits.jpg">
+              <iconify-icon icon="solar:cart-check-bold"></iconify-icon>
+              <span class="fw-semibold">Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card text-center Larger shadow border-0">
+          <img src="../images/fresh-beet-juice.jpg" class="card-img-top mx-auto mt-3 w-50 h-50 img-fluid" alt="">
+          <div class="card-body">
+            <div class="mb-2">
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+            </div>
+            <h5 class="card-title fw-bold">Fresh Beet Juice</h5>
+            <p class="card-text text-muted">$6.00 <s>$12.00</s></p>
+            <button class="btn btn-success text-white fw-bold px-4 add-to-cart-btn" data-name="Fresh Beet Juice"
+              data-price="6.00 $12.00" data-img="../images/fresh-beet-juice.jpg">
+              <iconify-icon icon="solar:cart-check-bold"></iconify-icon>
+              <span class="fw-semibold">Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-3 justify-content-center flex-wrap">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card text-center Larger shadow border-0">
+          <img src="../images/wheat-bread.jpg" class="card-img-top mx-auto mt-3 w-50 h-50 img-fluid" alt="">
+          <div class="card-body">
+            <div class="mb-2">
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+            </div>
+            <h5 class="card-title fw-bold">Wheat Bread</h5>
+            <p class="card-text text-muted">$5.75</p>
+            <button class="btn btn-success text-white fw-bold px-4 add-to-cart-btn" data-name="Wheat Bread"
+              data-price="5.75" data-img="../images/wheat-bread.jpg">
+              <iconify-icon icon="solar:cart-check-bold"></iconify-icon>
+              <span class="fw-semibold">Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card text-center Larger shadow border-0">
+          <img src="../images/peach-fruit.jpg" class="card-img-top mx-auto mt-3 w-50 h-50 img-fluid" alt="">
+          <div class="card-body">
+            <div class="mb-2">
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+            </div>
+            <h5 class="card-title fw-bold">Peach Fruit</h5>
+            <p class="card-text text-muted">$222.00</p>
+            <button class="btn btn-success text-white fw-bold px-4 add-to-cart-btn" data-name="Peach Fruit"
+              data-price="222.00" data-img="../images/peach-fruit.jpg">
+              <iconify-icon icon="solar:cart-check-bold"></iconify-icon>
+              <span class="fw-semibold">Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card text-center Larger shadow border-0">
+          <img src="../images/carrot-juice.jpg" class="card-img-top mx-auto mt-3 w-50 h-50 img-fluid" alt="">
+          <div class="card-body">
+            <div class="mb-2">
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+            </div>
+            <h5 class="card-title fw-bold">Carrot Juice</h5>
+            <p class="card-text text-muted">$7.00 </p>
+            <button class="btn btn-success text-white fw-bold px-4 add-to-cart-btn" data-name="Carrot Juice"
+              data-price="7.00" data-img="../images/carrot-juice.jpg">
+              <iconify-icon icon="solar:cart-check-bold"></iconify-icon>
+              <span class="fw-semibold">Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card text-center Larger shadow border-0">
+          <img src="../images/strawberry&.jpg" class="card-img-top mx-auto mt-3 w-50 h-50 img-fluid" alt="">
+          <div class="card-body">
+            <div class="mb-2">
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+              <iconify-icon class="text-danger" icon="fa:star"></iconify-icon>
+            </div>
+            <h5 class="card-title fw-bold">Strawberry</h5>
+            <p class="card-text text-muted">$14.00</s></p>
+            <button class="btn btn-success text-white fw-bold px-4 add-to-cart-btn" data-name="Strawberry"
+              data-price="14.00" data-img="../images/strawberry&.jpg">
+              <iconify-icon icon="solar:cart-check-bold"></iconify-icon>
+              <span class="fw-semibold">Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- food-presents-section -->
+  <div class="leganic-section position-relative overflow-hidden object-fit-cover bg-dark text-white py-5">
+    <div class="overlay z-2 position-absolute top-0 start-0 end-0 bottom-0"></div>
+    <div class="container leganic-color z-2 py-5 position-relative">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-7">
+          <h4 class="text-success leganic fw-normal">Leganic Food Presents...</h4>
+          <h1 class="display-6 fw-bold">Best and Healthy Organic Food to Unlock Full Potential</h1>
+          <p class="">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur
+            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+            voluptatem.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <button class="bg-danger p-4 rounded-pill border-0">
+            <iconify-icon class="display-2 text-white" icon="fa:play-circle"></iconify-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- choose-secation -->
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4">
+        <div class="text-start mb-5">
+          <i class="fas fa-leaf text-success display-4"></i>
+          <h2 class="mt-3 fw-light">Reasons To Choose</h2>
+          <h1 class="fw-bold">LEGANIC PRODUCTS</h1>
+          <p class="text-muted">Esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non
+            proident sunt in culpa qui sed ipsum officia deserunt.</p>
+        </div>
+        <div class="mt-4 ms-5">
+          <div class="d-flex align-items-center mb-3 py-3">
+            <img src="../images/garlic.png" alt="">
+            <div class="ps-5">
+              <h4 class="fw-bold mb-0">Fresh Organic Items</h4>
+              <p class="text-muted mb-0">Ding elit sed usmod tempor incididunt</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-3 py-3">
+            <img src="../images/bright.png" alt="">
+            <div class="ps-5">
+              <h4 class="fw-bold mb-0">Experts Team Advice</h4>
+              <p class="text-muted mb-0">Ding elit sed usmod tempor incididunt</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-3 py-3">
+            <img src="../images/dilewary.png" alt="">
+            <div class="ps-5">
+              <h4 class="fw-bold mb-0">Experts Team Advice</h4>
+              <p class="text-muted mb-0">Ding elit sed usmod tempor incididunt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="../images/choose-img.jpg" alt="vegetables" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <!-- elementor-images-section -->
+  <div class="my-5">
+    <div class="row g-0">
+      <div class=" col-sm-4 col-md-3 p-0">
+        <img class="img-fluid" alt="vegetables" src="../images/img-1.jpg">
+      </div>
+      <div class=" col-sm-4 col-md-3 p-0">
+        <img class="img-fluid" alt="vegetables" src="../images/img-2.jpg">
+      </div>
+      <div class=" col-sm-4 col-md-3 p-0">
+        <img class="img-fluid" alt="vegetables" src="../images/img-3.jpg">
+      </div>
+      <div class=" col-sm-4 col-md-3 p-0">
+        <img class="img-fluid" alt="vegetables" src="../images/img-4.jpg">
+      </div>
+    </div>
+    <div class="row g-0">
+      <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+        <img class="img-fluid" alt="vegetables" src="../images/img-5.jpg">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 p-0">
+        <img class="img-fluid" alt="vegetables" src="../images/img-6.jpg">
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+        <img class="img-fluid" alt="vegetables" src="../images/img-7.jpg">
+      </div>
+    </div>
+  </div>
+  <!-- Expert-farmers-section -->
+  <div class="container my-5">
+    <div class="text-center mb-5">
+      <img src="../images/icon-1.png" alt="">
+      <h1 class="fw-bold py-3">Expert Farmers</h1>
+      <p>Esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non <br>
+        proident sunt in culpa qui sed ipsum officia deserunt.</p>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 larger shadow border-0">
+          <img src="../images/farmer-1.jpg" class="card-img-top" alt="">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Diana Leslie</h5>
+            <p class="card-text fw-bold">Senior Farmer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 larger shadow border-0">
+          <img src="../images/farmer-2.jpg" class="card-img-top" alt="">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Liam Irvines</h5>
+            <p class="card-text fw-bold">Senior Farmer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 larger shadow border-0">
+          <img src="../images/farmer-4.jpg" class="card-img-top" alt="">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Scott William</h5>
+            <p class="card-text fw-bold">Head of Team</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 larger shadow border-0">
+          <img src="../images/farmer-3.jpg" class="card-img-top" alt="">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">John Smith</h5>
+            <p class="card-text fw-bold">Senior Farmer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fresh-fruits-&-vegetables -->
+  <div style="background-image: url(../images/fresh-vegetable.jpg); background-size: cover;">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6"> </div>
+        <div class="col-md-6 mt-5">
+          <div class=" p-4">
+            <h2 class="fw-normal mb-3">Deal Of The Week</h2>
+            <h1 class=" mb-3">Fresh Fruits &amp; Vegetables</h1>
+            <h5 class="fw-bold text-success mb-4">Offer 2Kg pack from our organic store</h5>
+            <p class="text-muted mb-4">Incididunt ut labore et dolore magna aliqua. Ut enim min veniam quis
+              trud exercitation ullamco laboris aliquip exea.</p>
+            <div class="row mb-4">
+              <div class="col-md-3 col-sm-6 col-6 text-center py-3 bg-white rounded shadow">
+                <span class="d-block fs-2 fw-bold">00</span>
+                <small class="text-muted">Days</small>
+              </div>
+              <div class="col-md-3 col-sm-6 col-6 text-center py-3 bg-white rounded shadow">
+                <span class="d-block fs-2 fw-bold">00</span>
+                <small class="text-muted">Hours</small>
+              </div>
+              <div class="col-md-3 col-sm-6 col-6 text-center py-3 bg-white rounded shadow">
+                <span class="d-block fs-2 fw-bold">00</span>
+                <small class="text-muted">Mins</small>
+              </div>
+              <div class="col-md-3 col-sm-6 col-6 text-center py-3 bg-white rounded shadow">
+                <span class="d-block fs-2 fw-bold">00</span>
+                <small class="text-muted">Secs</small>
+              </div>
+            </div>
+            <div class="text-md-center">
+              <button class=" ms-lg-5 border-0 bg-warning p-3 fw-bold text-white text-uppercase">Get The Deal</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- latest-news -->
+  <div class="container my-5">
+    <div class="text-center">
+      <img src="../images/icon-1.png" alt="">
+      <h1 class="py-5 fw-bold">Our Latest News</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 larger shadow border-0">
+          <img src="../images/news-1-370x308.jpg" class="card-img-top img-fluid" alt="">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <div class="bg-success text-white text-center rounded-2 px-4 py-2">
+                <p class="mb-0 fw-bold">07</p>
+                <p class="mb-0">Jun</p>
+              </div>
+            </div>
+            <h3 class="card-title fw-medium">Health Benefits Of A Raw Food</h3>
+            <p class="card-text text-muted">By <span class="font-weight-bold text-dark">leganicaduser</span> | Organic
+              Food</p>
+            <button type="button" class="btn btn-outline-warning text-dark p-2 px-3">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 larger shadow border-0">
+          <img src="../images/news-4-370x308.jpg" class="card-img-top img-fluid" alt="">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <div class="bg-success text-white text-center rounded-2 px-4 py-2">
+                <p class="mb-0 fw-bold">07</p>
+                <p class="mb-0">Jun</p>
+              </div>
+            </div>
+            <h3 class="card-title fw-medium">Organic Foods And Its Advantages</h3>
+            <p class="card-text text-muted">By <span class="font-weight-bold text-dark">leganicaduser</span> | Health
+              Tips</p>
+            <button type="button" class="btn btn-dark">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 larger shadow border-0">
+          <img src="../images/news-8-370x308.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <div class="bg-success text-white text-center rounded-2 px-4 py-2">
+                <p class="mb-0 fw-bold">07</p>
+                <p class="mb-0">Jun</p>
+              </div>
+            </div>
+            <h3 class="card-title fw-medium">Health Benefits Of A Raw Food</h3>
+            <p class="card-text text-muted">By <span class="font-weight-bold text-dark">leganicaduser</span> | Healthy
+              Diet</p>
+            <button type="button" class="btn btn-dark">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- client-images-section -->
+  <div class="container my-5">
+    <div class="row justify-content-evenly align-items-center">
+      <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <img class="img-fluid" src="../images/client-logo-1.jpg" alt="" />
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <img class="img-fluid" src="../images/client-logo-2.jpg" alt="" />
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <img class="img-fluid" src="../images/client-logo-3.jpg" alt="" />
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <img class="img-fluid" src="../images/client-logo-4.jpg" alt="" />
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <img class="img-fluid" src="../images/client-logo-5.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- special-offers -->
+  <div class="position-relative offers-img">
+    <img class="position-absolute top-0 start-50 translate-middle img-fluid" src="./images/shape-2.png" alt="">
+    <div class="container">
+      <div class="row text-white pt-lg-5 h-100">
+        <div class="col-lg-7 col-md-8 col-sm-12">
+          <h1 class="fw-bold">Subscribe To Our Special Offers</h1>
+          <p class="lead">Today sign up for our newsletter and receive 15% OFF on your purchase</p>
+        </div>
+        <div class="col-lg-5 col-md-4 col-sm-12 d-flex justify-content-center">
+          <div class="d-flex justify-content-center align-items-center w-100">
+            <div class="w-100 position-relative">
+              <input type="email" class="form-control p-lg-4 p-sm-2" placeholder="Type Your Email" aria-label="Email">
+              <button
+                class="btn btn-success  btn-outline-warning border-0 text-white position-absolute py-lg-3 px-lg-4 mt-lg-2 me-lg-3 p-sm-2 rounded-0"
+                type="submit" style="top: 0; right: 0;">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="bg-black">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-5 mb-5">
+          <div class="pb-lg-4">
+            <img src="../images/logo-w.svg" alt="Logo" class="me-2 " style="vertical-align: middle;" />
+          </div>
+          <p class="text-white">Integer lobortis sem consequat imperdiet sed In nulla <br> viverra ut lorem ipsumut,
+            dapibus conse etur diam nuq <br> bibendum diet.</p>
+          <div class="text-white">
+            <p><i class="fas fa-map-marker-alt me-2"></i>102 Taily End Road, NewYork - USA</p>
+            <p><i class="fas fa-phone-alt me-2"></i>+1(222)30345004600</p>
+            <p><i class="fas fa-envelope me-2"></i>info@organicdomain.com</p>
+          </div>
+        </div>
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold mb-4 text-white">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none">About Us</a></li>
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none">New Products</a></li>
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none">Blog</a></li>
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none">Top Seller</a></li>
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-4">
+          <h5 class="fw-bold mb-4 text-white">Our Services</h5>
+          <ul class="list-unstyled">
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none ">Organic Food</a></li>
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none ">Fresh Juices</a></li>
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none ">Raw Food</a></li>
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none ">Bread Food</a></li>
+            <li class="pt-3"><a href="#" class="text-white text-decoration-none ">Dry Food</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="fw-bold mb-4 text-white">Instagram Feed</h5>
+          <div class="row">
+            <div class="col-lg-4 col-4">
+              <img class="img-fluid" src="../images/footer-img-1.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-4">
+              <img class="img-fluid" src="../images/footer-img-2.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-4">
+              <img class="img-fluid" src="../images/footer-img-3.jpg" alt="">
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-lg-4 col-4">
+              <img class="img-fluid" src="../images/footer-img-4.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-4">
+              <img class="img-fluid" src="../images/footer-img-5.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-4">
+              <img class="img-fluid" src="../images/footer-img-6.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-top border-1 border-dark py-3">
+      <div class="container py-3">
+        <div class="text-white">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
+              &copy; 2020 LEGANIC - All rights reserved
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-end">
+              <iconify-icon icon="ri:facebook-fill"></iconify-icon>
+              <iconify-icon class="mx-3" icon="mdi:twitter"></iconify-icon>
+              <iconify-icon icon="entypo-social:google"></iconify-icon>
+              <iconify-icon class="mx-3" icon="fa:linkedin"></iconify-icon>
+              <iconify-icon icon="fa:skype"></iconify-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="arrow" class="fixed-bottom mb-4  me-2 text-end">
+    <a id="scrollToTop" class="btn btn-warning btn-outline-success border-0 py-2 rounded-circle text-white" href="#">
+      <iconify-icon class="fs-4" icon="subway:up-arrow-1"></iconify-icon>
+    </a>
+  </div>
+  <!-- Offcanvas element -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body" id="cartItems">
+      <div id="cartItems"></div>
+      <span id="cartQuantityBadge"></span>
+      <div id="totalPrice"></div>
+      <!-- Cart items will appear here -->
+      <p>Empty!</p>
+    </div>
+    <!-- add to cart section footer -->
+    <div class="offcanvas-footer container mb-5">
+      <hr />
+      <div class="">
+        <strong class="text-black-50">total:</strong>
+        <strong id="totalPrices">$0.00</strong>
+      </div>
+      <div class="d-flex justify-content-between mt-2">
+
+      </div>
+    </div>
+  </div>
+  <script src="../js/script.js"> </script>
+</body>
+
+</html>
